@@ -5,32 +5,42 @@ body {
 }
 
 .wrapper {
-	display: block;
+	display: flex;
 	margin: 20px;
+}
+.left-column {
+	margin: 5px;
+	flex-direction: column;
+}
+.right-column {
+	margin: 5px;
+	flex-direction: column;
 }
 
 #div1 {
+	margin: 10px;
+	display: flex;
 	background-color: red;
 	width: 150px;
 	height: 100px;
-	padding: 100px; 
+	padding: 100px;
 	text-align: center;
 	border-radius: 50px;
-	
 }
-
 #div2 {
+	margin: 10px;
+	display: flex;
 	background-color: blue;
 	width: 150px;
 	height: 100px;
-	padding: 25px;
+	padding: 100px;
 	color: white;
 	text-align: center;
 	border-radius: 25px;
-
 }
-
 #div3 {
+	margin: 10px;
+	display: flex;
 	background-color: yellow;
 	width: 150px;
 	height: 100px;
@@ -38,6 +48,38 @@ body {
 	color: white;
 	text-align: center;
 	border-radius: 25px;
-
 }
 
+#div4 {
+	margin: 10px;
+	display: flex;
+	background-color: blue;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 50px;
+}
+#div5 {
+	margin: 10px;
+	display: flex;
+	background-color: red;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 25px;
+}
+#div6 {
+	margin: 10;
+	display: flex;
+	background-color: black;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 25px;
+}
